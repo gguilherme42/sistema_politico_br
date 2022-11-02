@@ -22,7 +22,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: white;
+    background-color: rgba(245, 245, 245, 0.863);
     height: 85vh;;
     width: 85vw;
     padding: 10px;
