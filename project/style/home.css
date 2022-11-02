@@ -63,6 +63,11 @@ section{
     margin-right: 0;
 }
 
+#cards .card:hover {
+    background-color: rgb(183, 192, 221);
+}
+
+
 .card_content {
     display: flex;
     flex-direction: column;
@@ -70,6 +75,7 @@ section{
     align-items: center;
     
 }
+
 
 
 .card_content img {
