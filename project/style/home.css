@@ -19,10 +19,14 @@ section{
 }
  
 #content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     background-color: white;
     height: 85vh;;
     width: 85vw;
     padding: 10px;
+    border-radius: 2.5%;
 }
 
 #titulo {
@@ -47,25 +51,30 @@ section{
 
 }
 
-#cards ul li {
+#cards .card {
     background-color: yellow;
-    margin-right: 20px;
+    margin-right: 30px;
+    border-radius: 5%;
+    padding: 10px;
+    box-shadow: 0.5px 0.5px 10px black;
 }
 
 #cards ul li:last-child {
     margin-right: 0;
 }
 
-.card {
+.card_content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    align-content: center;
+    
 }
 
-.card img {
+
+.card_content img {
     border-radius: 50%;
     height: 50%;
     width: 50%;
+    margin-bottom: 20px;
 }
