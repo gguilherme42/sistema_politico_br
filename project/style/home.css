@@ -45,8 +45,6 @@ section{
     flex-direction: row;
     list-style: none;
     justify-content: space-around;
-    background-color: gray;
-    
     padding: 10px;
 
 }
