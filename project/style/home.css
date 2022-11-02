@@ -52,7 +52,7 @@ section{
 }
 
 #cards .card {
-    background-color: yellow;
+    background-color: rgba(245, 245, 245, 0.747);
     margin-right: 30px;
     border-radius: 5%;
     padding: 10px;
